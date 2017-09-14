@@ -1,0 +1,21 @@
+{
+    "name": "thomas.wang/plugin-data-api",
+    "description": "build rest api for wordpress website",
+    "type": "wordpress-plugin",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "bshaffer/oauth2-server-php": "^1.9"
+    },
+    "autoload":{
+        "psr-4":{
+            "Aspen\\": "./src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laughingkids",
+            "email": "developer.wxj@gmail.com"
+        }
+    ]
+}
